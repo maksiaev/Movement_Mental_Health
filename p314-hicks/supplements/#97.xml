@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE artifacts SYSTEM "file_to_upload_in_verif_page.dtd">
+<artifacts>
+	<artifact>
+		<artifact_doi>10.17605/OSF.IO/3AGWR</artifact_doi>
+		<artifact_type artif_types="dataset"/>
+		<artifact_publication_date>07-06-2021</artifact_publication_date>
+		<title>HYPERAKTIV: An Activity Dataset from Adult Patients with Attention-Deficit/Hyperactivity Disorder (ADHD)</title>
+		<foreign_title/>
+		<language/>
+		<version>1.0</version>
+		<contributors>
+			<contrib>
+				<seq_no>1</seq_no>
+				<first_name>Steven</first_name>
+				<middle_name>Alexander</middle_name>
+				<last_name>Hicks</last_name>
+				<affiliation>SimulaMet</affiliation>
+				<role>author</role>
+				<email_address>steven@simula.no</email_address>
+			</contrib>
+			<contrib>
+				<seq_no>2</seq_no>
+				<first_name>Andrea </first_name>
+				<last_name>Stautland</last_name>
+				<affiliation>University of Bergen</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>3</seq_no>
+				<first_name>Ole</first_name>
+				<middle_name>Bernt</middle_name>
+				<last_name>Fasmer</last_name>
+				<affiliation>NORMENT</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>4</seq_no>
+				<first_name>Wenche</first_name>
+				<last_name>Førland</last_name>
+				<affiliation>Independent Researcher</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>5</seq_no>
+				<first_name>Hugo</first_name>
+				<middle_name>Lewi</middle_name>
+				<last_name>Hammer</last_name>
+				<affiliation>OsloMet</affiliation>
+				<role>author</role>
+				<email_address>hugoh@oslomet.no</email_address>
+			</contrib>
+			<contrib>
+				<seq_no>6</seq_no>
+				<first_name>Pål</first_name>
+				<middle_name/>
+				<last_name>Halvorsen</last_name>
+				<affiliation>SimulaMet</affiliation>
+				<role>author</role>
+				<email_address>paalh@simula.no</email_address>
+			</contrib>
+			<contrib>
+				<seq_no>7</seq_no>
+				<first_name>Kristin</first_name>
+				<last_name>Mjeldheim</last_name>
+				<affiliation>Independent Researcher</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>8</seq_no>
+				<first_name>Ketil</first_name>
+				<middle_name>Joachim</middle_name>
+				<last_name>Oedegaard</last_name>
+				<affiliation>NORMENT</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>9</seq_no>
+				<first_name>Berge</first_name>
+				<last_name>Osnes</last_name>
+				<affiliation>Haukeland University Hospital</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>10</seq_no>
+				<first_name>Vigdis</first_name>
+				<middle_name>Elin Giæver</middle_name>
+				<last_name>Syrstad</last_name>
+				<affiliation>NORMENT</affiliation>
+				<role>author</role>
+			</contrib>
+			<contrib>
+				<seq_no>11</seq_no>
+				<first_name>Michael</first_name>
+				<middle_name>A.</middle_name>
+				<last_name>Riegler</last_name>
+				<affiliation>SimulaMet</affiliation>
+				<role>author</role>
+				<email_address>michael@simula.no</email_address>
+			</contrib>
+			<contrib>
+				<seq_no>12</seq_no>
+				<first_name>Petter</first_name>
+				<last_name>Jakobsen</last_name>
+				<affiliation>NORMENT</affiliation>
+				<role>author</role>
+			</contrib>
+		</contributors>
+		<artifact_instructions>
+			<general_inst>
+				<software_dependencies>Python</software_dependencies>
+				<hardware_dependencies>No specific hardware needed.</hardware_dependencies>
+				<installation>Download the ZIP-compressed dataset, and extract it from the ZIP archive.</installation>
+			</general_inst>
+			<experimental_inst>
+				<installation>The experiments can be reproduced by running the experiments notebook included in the HYPERAKTIV GitHub repository.</installation>
+			</experimental_inst>
+		</artifact_instructions>
+		<description>
+			HYPERAKTIV is a public dataset containing health, activity, andheart rate data from adult patients diagnosed with attention deficit hyperactivity disorder, better known as ADHD. The dataset consists of data collected from 51 patients with ADHD and 52 clinical controls. In addition to the activity and heart rate data, we also include a series of patient attributes such as their age, sex, and information about their mental state, as well as output data from a computerized neuropsychological test.
+		</description>
+		<data_documentation>
+			The data, a detailed description, and usage instructions are published online at the dataset web-page http://datasets.simula.no/hyperaktiv/.
+		</data_documentation>
+		<provenance>
+			The dataset was collected from patients referred to a private psychiatric out-patient clinic in need of a diagnostic evaluation of either ADHD, mood or anxiety disorders. See the paper "HYPERAKTIV: An Activity Dataset from Adult Patients with Attention-Deficit/Hyperactivity Disorder (ADHD)" for more details.
+		</provenance>
+		<keywords>
+			<kw>attention-deficit hyperactivity disorder</kw>
+			<kw>adhd</kw>
+			<kw>actigraphy</kw>
+			<kw>motor activity</kw>
+			<kw>heart rate</kw>
+			<kw>machine learning</kw>
+			<kw>artificial intelligence</kw>
+			<kw>dataset</kw>
+		</keywords>
+		<acm_ccs>
+			<concept>
+				<concept_id>10010147.10010257.10010339</concept_id>
+				<concept_desc>Computing methodologies~Cross-validation</concept_desc>
+				<concept_significance>300</concept_significance>
+				</concept>
+			<concept>
+				<concept_id>10010147.10010257.10010258.10010259</concept_id>
+				<concept_desc>Computing methodologies~Supervised learning</concept_desc>
+				<concept_significance>300</concept_significance>
+				</concept>
+			<concept>
+				<concept_id>10010147.10010257</concept_id>
+				<concept_desc>Computing methodologies~Machine learning</concept_desc>
+				<concept_significance>500</concept_significance>
+				</concept>
+			<concept>
+				<concept_id>10010405.10010444.10010449</concept_id>
+				<concept_desc>Applied computing~Health informatics</concept_desc>
+				<concept_significance>500</concept_significance>
+			</concept>
+		</acm_ccs>
+		<fulltext>
+			<file>
+				<fname>patient_info.csv</fname>
+				<description>
+					This file contains information about the patients such as age, sex, and diagnosis.
+				</description>
+			</file>
+			<file>
+				<fname>CPT_II_ConnersContinuousPerformanceTest.csv</fname>
+				<description>
+					This file contains the individual responses of the 360 CPT-II test trials, the omission and commission errors, and the ADHD Confidence Index.
+				</description>
+			</file>	
+			<file>
+				<fname>features.csv</fname>
+				<description>
+					This file contains the pre-extracted features used to perform the experiments
+				</description>
+			</file>
+			<file>
+				<fname>activity_data</fname>
+				<description>
+					A directory that contains the activity data collected from all participants, organized into separate files.	 
+				</description>
+			</file>	
+			<file>
+				<fname>hrv_data</fname>
+				<description>
+					A directory that contains the heart rate data collected from all participants, organized into separate files.
+				</description>
+			</file>
+		</fulltext>
+		<license>
+		The dataset is licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+		</license>
+		<license_url/>
+		<publisher>
+			<publisher_id>PUB27</publisher_id>
+			<publisher_code>ACMNY</publisher_code>
+			<publisher_name>ACM</publisher_name>
+			<publisher_address/>
+			<publisher_city>New York</publisher_city>
+			<publisher_state>NY</publisher_state>
+			<publisher_country>USA</publisher_country>
+			<publisher_zip_code>10121</publisher_zip_code>
+			<publisher_contact>Bernard Rous</publisher_contact>
+			<publisher_phone>2128697440</publisher_phone>
+			<publisher_isbn_prefix>978</publisher_isbn_prefix>
+			<publisher_url>http://dl.acm.org</publisher_url>
+		</publisher>
+		<reproducibility>
+			<reproducible>
+				<reproducible_type reproducible_types="Artifacts_Available"/>
+				<official_date/>
+				<additional_text/>
+				<description_url>http://www.acm.org/publications/policies/artifact-review-badging#available</description_url>
+			</reproducible>
+		</reproducibility>
+		<copyrights>
+			<copyright_holder>
+				<copyright_holder_name>Simula Metropolitan Center for Digital Engineering and Simula Metropolitan University</copyright_holder_name>
+				<copyright_holder_year>2021</copyright_holder_year>
+			</copyright_holder>
+		</copyrights>
+		<artifact_links>
+			<linked_articles>
+				<linked_article>
+					<article_doi>10.1145/3458305.3478454</article_doi>
+					<title>HYPERAKTIV: An Activity Dataset from Patients with Attention-Deficit/Hyperactivity Disorder (ADHD)</title>
+					<description/>
+				</linked_article>
+			</linked_articles>
+		</artifact_links>
+	</artifact>
+</artifacts>
