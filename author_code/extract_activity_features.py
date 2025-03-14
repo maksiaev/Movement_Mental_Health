@@ -10,8 +10,8 @@ from tsfresh import extract_features
 
 parser = argparse.ArgumentParser(description="Script extract features from patient activity files.")
 
-parser.add_argument("-i", "--input-dir", type=str, required=True)
-parser.add_argument("-o", "--output-dir", type=str, required=True)
+parser.add_argument("-i", "--input-dir", type=str, default="C:/Users/maksi/Documents/Statistics/Projects/Movement_Mental_Health/hyperaktiv/hyperaktiv_with_controls/hyperaktiv_with_controls/activity_data/")
+parser.add_argument("-o", "--output-dir", type=str, default="C:/Users/maksi/Documents/Statistics/Projects/Movement_Mental_Health/results/")
 
 def read_activity_file(filepath, patient_id):
     data = [ ]
